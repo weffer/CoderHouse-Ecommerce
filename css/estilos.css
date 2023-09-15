@@ -1,0 +1,77 @@
+/**
+**Mis CSS
+*/
+body {
+  background-color: #ffffff;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+header {
+  background-image: url(../img/header.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+  position: relative;
+  min-height: 25rem;
+}
+
+.logo {
+  text-decoration: none;
+  color: #00111e;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #00111e;
+  font-weight: bold;
+  padding: 2.5px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+}
+
+.producto {
+  margin-top: 80px;
+}
+
+.producto img {
+  height: 12rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+section {
+  margin-top: 80px;
+}
+
+.blog {
+  margin-top: 5rem;
+}
+
+footer {
+  margin-top: 80px;
+  background-color: #262626;
+  color: white;
+  height: 6rem;
+}
+
+form {
+  border: 1px solid #00111e;
+}
