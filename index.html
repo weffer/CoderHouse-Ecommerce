@@ -18,139 +18,469 @@
     <title>Ecommerce &#128512;</title>
   </head>
   <body>
-    <header>
-      <div>
-        <a href="index.html" class="logo">
-          <strong>&lt;JEFFERSON ORE/&gt;</strong>
-        </a>
-        <ul class="menu">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="paginas/nosotros.html">Nosotros</a></li>
-          <li><a href="paginas/productos.html">Productos</a></li>
-          <li><a href="paginas/blog.html">Blog</a></li>
-          <li><a href="paginas/contacto.html">Conctactanos</a></li>
-          <li><a href="#">Me gusta</a></li>
-          <li><a href="#">Carrito</a></li>
-        </ul>
+    <header class="py-5">
+      <div class="container-xl">
+        <div class="row justify-content-center justify-content-md-between">
+          <div class="col-8 col-md-3">
+            <a href="index.html" class="text-decoration-none logo">
+              <strong>&lt;JEFFERSON ORE/&gt;</strong>
+            </a>
+          </div>
+          <nav
+            class="col-md-6 d-flex flex-column align-items-center mt-5 mt-md-0 flex-md-row justify-content-md-end menu"
+          >
+            <a
+              class="d-block px-2 py-1 text-decoration-none fs-6 fw-bold text-uppercase text-black"
+              href="index.html"
+              >Inicio</a
+            >
+            <a
+              class="d-block px-2 py-1 text-decoration-none fs-6 fw-bold text-uppercase text-black"
+              href="paginas/nosotros.html"
+              >Nosotros</a
+            >
+            <a
+              class="d-block px-2 py-1 text-decoration-none fs-6 fw-bold text-uppercase text-black"
+              href="paginas/productos.html"
+              >Productos</a
+            >
+            <a
+              class="d-block px-2 py-1 text-decoration-none fs-6 fw-bold text-uppercase text-black"
+              href="paginas/blog.html"
+              >Blog</a
+            >
+            <a
+              class="d-block px-2 py-1 text-decoration-none fs-6 fw-bold text-uppercase text-black"
+              href="paginas/contacto.html"
+              >Conctactanos</a
+            >
+          </nav>
+        </div>
+        <!--row-->
+        <div class="row mt-5">
+          <div class="col-md-6 text-center text-md-start">
+            <h1 class="display-6 fw-bold">Example</h1>
+            <p class="mt-5 fs-5 text-black">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+              qui laboriosam exercitationem, rem accusantium aperiam fuga quam
+              odit repudiandae nobis dolorem dolorum corporis libero
+              consectetur. Omnis earum aut asperiores. Rem?
+            </p>
+            <p class="text-header fs-1">120$</p>
+            <a
+              class="btn fs-4 bg-primary text-white py-2 px-5 btn-bg"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
       </div>
     </header>
 
-    <main>
-      <h2>Productos</h2>
-      <div class="producto">
-        <img src="img/producto1.webp" alt="producto" />
-        <h3>Producto 1</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex est modi
-          repudiandae at eaque asperiores architecto recusandae tenetur ipsam
-          aperiam?
-        </p>
-        <p>300$</p>
-        <a href="#">ver producto</a>
-      </div>
-      <div class="producto">
-        <img src="img/producto2.webp" alt="producto" />
-        <h3>Producto 2</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex est modi
-          repudiandae at eaque asperiores architecto recusandae tenetur ipsam
-          aperiam?
-        </p>
-        <p>300$</p>
-        <a href="#">ver producto</a>
-      </div>
-      <div class="producto">
-        <img src="img/producto3.webp" alt="producto" />
-        <h3>Producto 3</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex est modi
-          repudiandae at eaque asperiores architecto recusandae tenetur ipsam
-          aperiam?
-        </p>
-        <p>300$</p>
-        <a href="#">ver producto</a>
-      </div>
-      <div class="producto">
-        <img src="img/producto5.webp" alt="producto" />
-        <h3>Producto 4</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex est modi
-          repudiandae at eaque asperiores architecto recusandae tenetur ipsam
-          aperiam?
-        </p>
-        <p>300$</p>
-        <a href="#">ver producto</a>
+    <main class="container-xl mt-5">
+      <h2 class="text-center fw-bold">Productos</h2>
+      <div class="row mt-5">
+        <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+          <div class="col-4">
+            <img class="img-fluid" src="img/producto1.webp" alt="producto" />
+          </div>
+          <div class="col-8">
+            <h3 class="text-black fs-5 fw-bold text-uppercase">Producto 1</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores,
+              officia quos doloremque aspernatur reprehenderit dolore!
+            </p>
+            <p class="text-primary fs-3 text-black">$150</p>
+            <a
+              class="d-block bg-black text-center p-2 text-uppercase text-decoration-none text-white"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+          <div class="col-4">
+            <img class="img-fluid" src="img/producto3.webp" alt="producto" />
+          </div>
+          <div class="col-8">
+            <h3 class="text-black fs-5 fw-bold text-uppercase">Producto 2</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores,
+              officia quos doloremque aspernatur reprehenderit dolore!
+            </p>
+            <p class="text-primary fs-3 text-black">$150</p>
+            <a
+              class="d-block bg-black text-center p-2 text-uppercase text-decoration-none text-white"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+          <div class="col-4">
+            <img class="img-fluid" src="img/producto3.webp" alt="producto" />
+          </div>
+          <div class="col-8">
+            <h3 class="text-black fs-5 fw-bold text-uppercase">Producto 3</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores,
+              officia quos doloremque aspernatur reprehenderit dolore!
+            </p>
+            <p class="text-primary fs-3 text-black">$150</p>
+            <a
+              class="d-block bg-black text-center p-2 text-uppercase text-decoration-none text-white"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+          <div class="col-4">
+            <img class="img-fluid" src="img/producto4.webp" alt="producto" />
+          </div>
+          <div class="col-8">
+            <h3 class="text-black fs-5 fw-bold text-uppercase">Producto 4</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores,
+              officia quos doloremque aspernatur reprehenderit dolore!
+            </p>
+            <p class="text-primary fs-3 text-black">$150</p>
+            <a
+              class="d-block bg-black text-center p-2 text-uppercase text-decoration-none text-white"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+          <div class="col-4">
+            <img class="img-fluid" src="img/producto5.webp" alt="producto" />
+          </div>
+          <div class="col-8">
+            <h3 class="text-black fs-5 fw-bold text-uppercase">Producto 5</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores,
+              officia quos doloremque aspernatur reprehenderit dolore!
+            </p>
+            <p class="text-primary fs-3 text-black">$150</p>
+            <a
+              class="d-block bg-black text-center p-2 text-uppercase text-decoration-none text-white"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+          <div class="col-4">
+            <img class="img-fluid" src="img/producto6.webp" alt="producto" />
+          </div>
+          <div class="col-8">
+            <h3 class="text-black fs-5 fw-bold text-uppercase">Producto 6</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores,
+              officia quos doloremque aspernatur reprehenderit dolore!
+            </p>
+            <p class="text-primary fs-3 text-black">$150</p>
+            <a
+              class="d-block bg-black text-center p-2 text-uppercase text-decoration-none text-white"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+          <div class="col-4">
+            <img class="img-fluid" src="img/producto1.webp" alt="producto" />
+          </div>
+          <div class="col-8">
+            <h3 class="text-black fs-5 fw-bold text-uppercase">Producto 7</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores,
+              officia quos doloremque aspernatur reprehenderit dolore!
+            </p>
+            <p class="text-primary fs-3 text-black">$150</p>
+            <a
+              class="d-block bg-black text-center p-2 text-uppercase text-decoration-none text-white"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+          <div class="col-4">
+            <img class="img-fluid" src="img/producto2.webp" alt="producto" />
+          </div>
+          <div class="col-8">
+            <h3 class="text-black fs-5 fw-bold text-uppercase">Producto 8</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores,
+              officia quos doloremque aspernatur reprehenderit dolore!
+            </p>
+            <p class="text-primary fs-3 text-black">$150</p>
+            <a
+              class="d-block bg-black text-center p-2 text-uppercase text-decoration-none text-white"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+          <div class="col-4">
+            <img class="img-fluid" src="img/producto3.webp" alt="producto" />
+          </div>
+          <div class="col-8">
+            <h3 class="text-black fs-5 fw-bold text-uppercase">Producto 9</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores,
+              officia quos doloremque aspernatur reprehenderit dolore!
+            </p>
+            <p class="text-primary fs-3 text-black">$150</p>
+            <a
+              class="d-block bg-black text-center p-2 text-uppercase text-decoration-none text-white"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+          <div class="col-4">
+            <img class="img-fluid" src="img/producto4.webp" alt="producto" />
+          </div>
+          <div class="col-8">
+            <h3 class="text-black fs-5 fw-bold text-uppercase">Producto 10</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores,
+              officia quos doloremque aspernatur reprehenderit dolore!
+            </p>
+            <p class="text-primary fs-3 text-black">$150</p>
+            <a
+              class="d-block bg-black text-center p-2 text-uppercase text-decoration-none text-white"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+          <div class="col-4">
+            <img class="img-fluid" src="img/producto5.webp" alt="producto" />
+          </div>
+          <div class="col-8">
+            <h3 class="text-black fs-5 fw-bold text-uppercase">Producto 11</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores,
+              officia quos doloremque aspernatur reprehenderit dolore!
+            </p>
+            <p class="text-primary fs-3 text-black">$150</p>
+            <a
+              class="d-block bg-black text-center p-2 text-uppercase text-decoration-none text-white"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+          <div class="col-4">
+            <img class="img-fluid" src="img/producto1.webp" alt="producto" />
+          </div>
+          <div class="col-8">
+            <h3 class="text-black fs-5 fw-bold text-uppercase">Producto 12</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores,
+              officia quos doloremque aspernatur reprehenderit dolore!
+            </p>
+            <p class="text-primary fs-3 text-black">$150</p>
+            <a
+              class="d-block bg-black text-center p-2 text-uppercase text-decoration-none text-white"
+              href="paginas/verProducto.html"
+              >Ver Producto</a
+            >
+          </div>
+        </div>
       </div>
     </main>
 
-    <section>
-      <div class="sobreNosotros">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/W00w2b-uE5g?si=V35e710IIj5Wr0lQ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <h2>Sobre Nosotro</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, nostrum
-          voluptates dolore harum porro ad ipsa nam voluptatem, dolores
-          molestiae mollitia repellat quasi, laudantium quo maiores! Fugit nihil
-          saepe repudiandae.
-        </p>
-        <button>Mas información</button>
+    <section class="sobre-nosotros">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/W00w2b-uE5g?si=V35e710IIj5Wr0lQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <h3 class="fw-bold">Sobre Nosotros</h3>
+            <p class="text-black mt-3 fs-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              excepturi iure aliquid asperiores nesciunt dolorum blanditiis
+              obcaecati veritatis debitis temporibus beatae voluptates, nostrum
+              sunt doloremque? Sequi doloremque beatae libero vero?
+            </p>
+            <a
+              class="bg-primary text-white py-2 px-5 mt-2 text-uppercase text-decoration-none bg-black fw-bold"
+              href="#"
+              >Mas Informacion</a
+            >
+          </div>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2>Nuestro Blog</h2>
-      <div class="blog">
-        <img src="img/blog1.webp" alt="" />
-        <h3>Lorem ipsum dolor sit.</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quia
-          soluta excepturi cupiditate, harum praesentium voluptas aspernatur
-          assumenda quos pariatur.
-        </p>
-        <button>Leer mas</button>
-      </div>
-
-      <div class="blog">
-        <img src="img/blog1.webp" alt="" />
-        <h3>Lorem ipsum dolor sit.</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quia
-          soluta excepturi cupiditate, harum praesentium voluptas aspernatur
-          assumenda quos pariatur.
-        </p>
-        <button>Leer mas</button>
-      </div>
-
-      <div class="blog">
-        <img src="img/blog1.webp" alt="" />
-        <h3>Lorem ipsum dolor sit.</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quia
-          soluta excepturi cupiditate, harum praesentium voluptas aspernatur
-          assumenda quos pariatur.
-        </p>
-        <button>Leer mas</button>
-      </div>
-
-      <div class="blog">
-        <img src="img/blog1.webp" alt="" />
-        <h3>Lorem ipsum dolor sit.</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quia
-          soluta excepturi cupiditate, harum praesentium voluptas aspernatur
-          assumenda quos pariatur.
-        </p>
-        <button>Leer mas</button>
+    <section class="container-xl mt-5">
+      <h2 class="text-center fw-bold">Nuestro Blog</h2>
+      <div class="row mt-5">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="img/blog1.webp" alt="blog" />
+            <div class="card-body">
+              <h3 class="text-black fw-normal fs-4 fw-bold">
+                Lorem ipsum dolor
+              </h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Placeat alias at provident esse eligendi itaque repudiandae
+                praesentium laborum delectus veniam!
+              </p>
+              <a class="btn btn-primary d-block text-white btn-bg" href="#"
+                >Leer mas</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="img/blog1.webp" alt="blog" />
+            <div class="card-body">
+              <h3 class="text-black fw-normal fs-4 fw-bold">
+                Lorem ipsum dolor
+              </h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Placeat alias at provident esse eligendi itaque repudiandae
+                praesentium laborum delectus veniam!
+              </p>
+              <a class="btn btn-primary d-block text-white btn-bg" href="#"
+                >Leer mas</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="img/blog1.webp" alt="blog" />
+            <div class="card-body">
+              <h3 class="text-black fw-normal fs-4 fw-bold">
+                Lorem ipsum dolor
+              </h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Placeat alias at provident esse eligendi itaque repudiandae
+                praesentium laborum delectus veniam!
+              </p>
+              <a class="btn btn-primary d-block text-white btn-bg" href="#"
+                >Leer mas</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="img/blog1.webp" alt="blog" />
+            <div class="card-body">
+              <h3 class="text-black fw-normal fs-4 fw-bold">
+                Lorem ipsum dolor
+              </h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Placeat alias at provident esse eligendi itaque repudiandae
+                praesentium laborum delectus veniam!
+              </p>
+              <a class="btn btn-primary d-block text-white btn-bg" href="#"
+                >Leer mas</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="img/blog1.webp" alt="blog" />
+            <div class="card-body">
+              <h3 class="text-black fw-normal fs-4 fw-bold">
+                Lorem ipsum dolor
+              </h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Placeat alias at provident esse eligendi itaque repudiandae
+                praesentium laborum delectus veniam!
+              </p>
+              <a class="btn btn-primary d-block text-white btn-bg" href="#"
+                >Leer mas</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="img/blog1.webp" alt="blog" />
+            <div class="card-body">
+              <h3 class="text-black fw-normal fs-4 fw-bold">
+                Lorem ipsum dolor
+              </h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Placeat alias at provident esse eligendi itaque repudiandae
+                praesentium laborum delectus veniam!
+              </p>
+              <a class="btn btn-primary d-block text-white btn-bg" href="#"
+                >Leer mas</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="img/blog1.webp" alt="blog" />
+            <div class="card-body">
+              <h3 class="text-black fw-normal fs-4 fw-bold">
+                Lorem ipsum dolor
+              </h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Placeat alias at provident esse eligendi itaque repudiandae
+                praesentium laborum delectus veniam!
+              </p>
+              <a class="btn btn-primary d-block text-white btn-bg" href="#"
+                >Leer mas</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="img/blog1.webp" alt="blog" />
+            <div class="card-body">
+              <h3 class="text-black fw-normal fs-4 fw-bold">
+                Lorem ipsum dolor
+              </h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Placeat alias at provident esse eligendi itaque repudiandae
+                praesentium laborum delectus veniam!
+              </p>
+              <a class="btn btn-primary d-block text-white btn-bg" href="#"
+                >Leer mas</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
     <footer>Copyright © 2003</footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
